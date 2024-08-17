@@ -9,9 +9,12 @@ export default defineConfig({
     monkey({
       entry: "src/main.ts",
       userscript: {
-        icon: "https://vitejs.dev/logo.svg",
-        namespace: "npm/vite-plugin-monkey",
+        namespace: "Velocita/torrent-download-helper",
+        version: "0.1.0",
+        author: "Velocita",
         match: ["https://share.dmhy.org/", "https://nyaa.si/"],
+        description:
+          "Support batch select and copy magnet link in torrent site",
       },
       build: {
         externalGlobals: {
