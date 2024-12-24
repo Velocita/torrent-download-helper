@@ -4,8 +4,8 @@
 // @version      0.1.0
 // @author       Velocita
 // @description  Support batch select and copy magnet link in torrent site
-// @match        https://share.dmhy.org/
-// @match        https://nyaa.si/
+// @match        https://share.dmhy.org/*
+// @match        https://nyaa.si/*
 // @require      https://cdn.jsdelivr.net/npm/vue@3.4.38/dist/vue.global.prod.js
 // @grant        GM_addStyle
 // @grant        GM_setClipboard
