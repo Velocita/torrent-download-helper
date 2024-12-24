@@ -12,7 +12,7 @@ export default defineConfig({
         namespace: "Velocita/torrent-download-helper",
         version: "0.1.0",
         author: "Velocita",
-        match: ["https://share.dmhy.org/", "https://nyaa.si/"],
+        match: ["https://share.dmhy.org/*", "https://nyaa.si/*"],
         description:
           "Support batch select and copy magnet link in torrent site",
       },
